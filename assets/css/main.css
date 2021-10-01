@@ -801,12 +801,14 @@ a.back-to-top:hover, a.back-to-top:focus {
 .controls .active {
   color: #00b4d9 !important;
   border-color: #00b4d9;
+  font-size: 18px;
   background: transparent;
 }
 
 .controls .btn {
   text-transform: uppercase;
   margin: 2px;
+  font-size: 18px;
   color: #fff;
 }
 
