@@ -920,6 +920,46 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 
+/* NEW PORTFOLIO STYLES */
+
+.portfolio-item .portfolio-box {
+  background-color: #ffffff; /* Sets the background color to white */
+  border: 2px solid #ddd; /* Optional: Adjusts the border color if needed */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Keeps the content within the boundaries of the box */
+  margin-bottom: 20px; /* Spacing between portfolio items */
+  display: flex; /* Maintains the flex layout */
+  align-items: center; /* Centers the items vertically */
+}
+
+.portfolio-item .portfolio-box .portfolio-image {
+  flex-basis: 40%; /* Assigns a base width to the image container */
+  overflow: hidden; /* Prevents the image from overflowing its container */
+}
+
+.portfolio-item .portfolio-box .portfolio-image img {
+  width: 100%; /* Ensures the image covers the full width of its container */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.portfolio-item .portfolio-box .portfolio-content {
+  flex-basis: 60%; /* Assigns a base width to the content container */
+  padding: 20px; /* Padding inside the content area */
+}
+
+.portfolio-item .portfolio-box .portfolio-content h3 {
+  font-size: 18px; /* Adjust the font size as needed */
+  margin-top: 0; /* Optional: Adjusts the top margin */
+  margin-bottom: 18px; /* Optional: Adjusts the bottom margin for spacing */
+}
+
+.portfolio-item .portfolio-box .portfolio-content .btn {
+  padding: 5px 10px; /* Smaller padding */
+  font-size: 14px; /* Smaller font size */
+  border-radius: 4px; /* Adjust border-radius if needed */
+}
+
+
 /* Services Item */
 .services {
   background: #F0F0F0;
