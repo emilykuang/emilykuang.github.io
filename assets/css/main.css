@@ -19,8 +19,14 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-size: 38px;
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h4 {
+  font-size: 20px;
   font-weight: 700;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -51,15 +57,14 @@ p {
   font-size: 14px;
 }
 
-ul, ol {
-  list-style: outside none none;
-  margin: 0;
-  padding: 0;
+ol {
+  list-style: disc;
+  padding-left: 20pt;
 }
 
-ul li, ol li {
+/* ul li, ol li {
   list-style: none;
-}
+} */
 
 .hero-heading {
   font-size: 48px;
