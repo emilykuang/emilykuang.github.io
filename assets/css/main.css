@@ -223,7 +223,7 @@ button:focus {
 }
 
 .social-icon li .twitter:hover {
-  background: #4A9CEC;
+  background: #000000;
 }
 
 .social-icon li .instagram:hover {
@@ -235,7 +235,7 @@ button:focus {
 }
 
 .social-icon li .google:hover {
-  background: #CE332A;
+  background: #4285F4;
 }
 
 .social-icon li .github:hover {
@@ -244,6 +244,10 @@ button:focus {
 
 .social-icon li .rit:hover {
   background: #F76902;
+}
+
+.social-icon li .york:hover {
+  background: #CC3333;
 }
 
 /* ScrollToTop */
