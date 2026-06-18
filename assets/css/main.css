@@ -793,22 +793,26 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* ==========================================================================
-  Portfolio Section
+  Research Section
    ========================================================================== */
-#portfolios {
+#research {
   background: #f2f2f2;
 }
 
-#portfolios .mix {
+#research .mix {
   padding: 10px;
 }
 
-#portfolios .portfolio-item .shot-item {
+#research .portfolio-item .shot-item {
   margin: 0px;
 }
 
-#portfolio .mix {
+#research .mix {
   display: none;
+}
+
+#service {
+  background: #f2f2f2;
 }
 
 .controls {
